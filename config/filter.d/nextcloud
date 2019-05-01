@@ -1,0 +1,9 @@
+# Fail2Ban Nextcloud filter
+# This filter is for nextcloud.log
+#
+#
+
+[Definition]
+
+failregex = ^.*"message":"Login failed.*Remote IP: '<HOST>'.*$
+ignoreregex =
